@@ -97,4 +97,8 @@ Este dataset contiene los votos y el % por distrito electoral de Zaragoza desde 
         }
     }
 },
-``
+```
+
+## Tritura-datos
+
+Uso lodash para ir sacando las diferentes estadísticas que tengo en Bislai.
