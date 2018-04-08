@@ -2,6 +2,11 @@
 
 Conforme he ido desarrollando [Bislai](http://bislai.co) he ido generando más y más datos. 
 
+## Tritura-mociones
+
+Usando lodash y node para ir sacando las diferentes estadísticas que abastecen a Bislai.
+
+
 ## Mociones
 
 Este dataset contiene todos las votaciones que han generado las mociones presentadas en el Ayuntamiento de Zaragoza.
@@ -98,7 +103,3 @@ Este dataset contiene los votos y el % por distrito electoral de Zaragoza desde 
     }
 },
 ```
-
-## Tritura-datos
-
-Uso lodash para ir sacando las diferentes estadísticas que tengo en Bislai.
