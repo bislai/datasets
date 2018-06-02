@@ -1,7 +1,7 @@
 var fs = require("fs");
 var _ = require("lodash");
 
-var mociones = require('mociones/mociones.json');
+var mociones = require('./mociones/mociones.json');
 
 var pp = "PP";
 var zec = "ZEC";
