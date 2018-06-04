@@ -1,7 +1,7 @@
 var fs = require("fs");
 var _ = require("lodash");
 
-mociones = JSON.parse(fs.readFileSync('mociones/mociones.json','utf8'));
+var mociones = require('./mociones/mociones.json');
 
 var pp = "PP";
 var zec = "ZEC";

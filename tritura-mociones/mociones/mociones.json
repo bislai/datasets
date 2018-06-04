@@ -1,4 +1,4 @@
-var mociones = [
+[
 {
     "fecha": "27-07-2015",
     "presentada": "C'S",
@@ -4812,5 +4812,3 @@ var mociones = [
     "unanimidad": "si",
     "numero": 16
 }]
-
-console.log(mociones[0].resultado)
