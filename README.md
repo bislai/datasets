@@ -6,7 +6,6 @@ Conforme he ido desarrollando [Bislai](http://bislai.co) he ido generando más y
 
 Usando lodash y node para ir sacando las diferentes estadísticas que abastecen a Bislai.
 
-
 ## Mociones
 
 Este dataset contiene todos las votaciones que han generado las mociones presentadas en el Ayuntamiento de Zaragoza.
@@ -102,4 +101,13 @@ Este dataset contiene los votos y el % por distrito electoral de Zaragoza desde 
         }
     }
 },
+```
+
+
+## Triturando
+
+Una vez actualizada la matriz con todas las mociones procedemos a lanzar lodash contra la matriz. Para ello hay un script de NPM que primero actualiza los objetos de los partidos y una vez actualizado contabiliza los diferentes archivos correspondientes a cada partido.
+
+```
+npm run data:bislai
 ```

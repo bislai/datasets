@@ -31,6 +31,7 @@ $afavor = _.countBy(mociones, function(res) { return (res.a_favor) })
 $encontra = _.countBy(mociones, function(res) { return (res.en_contra) })
 $unanimidad = _.countBy(mociones, function(res) { return (res.unanimidad) })
 $presentada = _.countBy(mociones, function(res) { return (res.presentada) })
+$abstencion = _.countBy(mociones, function(res) { return (res.abstencion) })
 $resultado = _.countBy(mociones, function(res) { return (res.resultado) })
 
 fs.writeFile('pp/pp-mociones.json', JSON.stringify(ppMociones, null, 2), function(err) {
@@ -119,6 +120,12 @@ fs.writeFile('estadisticas/presentada.json', JSON.stringify($presentada, null, 2
 });
 
 fs.writeFile('estadisticas/resultado.json', JSON.stringify($resultado, null, 2), function(err) {
+    if (err) {
+        throw err;
+    }
+});
+
+fs.writeFile('estadisticas/abstencion.json', JSON.stringify($abstencion, null, 2), function(err) {
     if (err) {
         throw err;
     }

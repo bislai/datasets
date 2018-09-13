@@ -19,7 +19,7 @@
     "server-on": "browser-sync start --server --files '*.css, *.html' --tunnel jorgeatgu",
     "lint-staged": "lint-staged",
     "inline:css": "gulp inline",
-    "data:bislai": "node pp-data.js && node zec-data.js && node psoe-data.js && node cs-data.js && node chunta-data.js",
+    "data:bislai": "node lodash && node pp-data.js && node zec-data.js && node psoe-data.js && node cs-data.js && node chunta-data.js",
     "remove:uncss": "gulp remove"
   },
   "license": "MIT",

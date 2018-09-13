@@ -127,7 +127,7 @@
     "fecha": "23-12-2015",
     "presentada": "ZEC",
     "resultado": "ganada",
-    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
     "abstencion": "PP",
     "votos_favor": 21,
     "votos_abstencion": 10,
@@ -313,7 +313,7 @@
     "fecha": "03-02-2017",
     "presentada": "ZEC",
     "resultado": "ganada",
-    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
     "en_contra": "PP",
     "votos_favor": 20,
     "votos_contra": 9,
@@ -342,7 +342,7 @@
     "fecha": "24-02-2017",
     "presentada": "ZEC",
     "resultado": "ganada",
-    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
     "en_contra": "PP",
     "votos_favor": 21,
     "votos_contra": 9,
@@ -394,6 +394,16 @@
     "numero": 35
   },
   {
+    "fecha": "28-04-2017",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 20,
+    "votos_contra": 10,
+    "numero": 37
+  },
+  {
     "fecha": "02-06-2017",
     "presentada": "ZEC",
     "resultado": "ganada",
@@ -424,7 +434,7 @@
     "fecha": "02-06-2017",
     "presentada": "ZEC",
     "resultado": "ganada",
-    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
     "abstencion": "PP",
     "votos_favor": 20,
     "votos_abstencion": 10,
@@ -707,5 +717,132 @@
     "votos_contra": 13,
     "votos_abstencion": 6,
     "numero": 83
+  },
+  {
+    "fecha": "04-05-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 31
+  },
+  {
+    "fecha": "04-05-2018",
+    "presentada": "ZEC",
+    "resultado": "perdida",
+    "a_favor": "ZEC + CHA",
+    "en_contra": "PP + PSOE + C'S",
+    "votos_favor": 10,
+    "votos_contra": 19,
+    "numero": 32
+  },
+  {
+    "fecha": "04-05-2018",
+    "presentada": "ZEC",
+    "resultado": "perdida",
+    "a_favor": "ZEC + CHA",
+    "en_contra": "PP + PSOE + C'S",
+    "votos_favor": 10,
+    "votos_contra": 19,
+    "numero": 33
+  },
+  {
+    "fecha": "04-05-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 34
+  },
+  {
+    "fecha": "04-05-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 35
+  },
+  {
+    "fecha": "04-05-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 36
+  },
+  {
+    "fecha": "04-05-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 19,
+    "votos_contra": 9,
+    "numero": 37
+  },
+  {
+    "fecha": "04-05-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 13
+  },
+  {
+    "fecha": "01-06-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "abstencion": "C'S",
+    "en_contra": "PP",
+    "votos_favor": 16,
+    "votos_contra": 9,
+    "votos_abstencion": 4,
+    "numero": 9
+  },
+  {
+    "fecha": "01-06-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + CHA",
+    "abstencion": "PSOE + C'S",
+    "en_contra": "PP",
+    "votos_favor": 10,
+    "votos_contra": 9,
+    "votos_abstencion": 10,
+    "numero": 92
+  },
+  {
+    "fecha": "01-06-2018",
+    "presentada": "ZEC",
+    "resultado": "perdida",
+    "a_favor": "ZEC + CHA",
+    "abstencion": "PSOE",
+    "en_contra": "PP + C'S",
+    "votos_favor": 10,
+    "votos_contra": 13,
+    "votos_abstencion": 6,
+    "numero": 10
+  },
+  {
+    "fecha": "29-06-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 11
+  },
+  {
+    "fecha": "29-06-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 12
+  },
+  {
+    "fecha": "27-07-2018",
+    "presentada": "ZEC",
+    "resultado": "perdida",
+    "a_favor": "ZEC",
+    "en_contra": "PP",
+    "abstencion": "PSOE + C'S + CHA",
+    "votos_favor": 7,
+    "votos_abstencion": 12,
+    "votos_contra": 10,
+    "numero": 27
   }
 ]
