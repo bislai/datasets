@@ -35,3 +35,37 @@ fs.writeFile('pp/pp-abstencion.json', JSON.stringify(ppAbstencion, null, 2), fun
         throw err;
     }
 });
+
+// Sumando el total de los votos en contra de Chunta
+function sum(obj) {
+  var sum = 0;
+  for( var el in obj ) {
+    if( obj.hasOwnProperty( el ) ) {
+      sum += parseFloat( obj[el] );
+    }
+  }
+  return sum;
+}
+
+var ppContraTotal = "Las votaciones en contra suman: " + sum(ppContra);
+var ppFavorTotal = 'Las votaciones a favor suman: ' + sum(ppFavor);
+var ppAbstencionTotal = "Las abstenciones suman: " + sum(ppAbstencion);
+
+//Creamos un nuevo JSON con todos los datos filtrados
+fs.writeFile('pp/pp-contra-total.json', JSON.stringify(ppContraTotal, null, 2), function(err) {
+    if (err) {
+        throw err;
+    }
+});
+
+fs.appendFile('pp/pp-contra-total.json', JSON.stringify(ppFavorTotal, null, 2), function(err) {
+    if (err) {
+        throw err;
+    }
+});
+
+fs.appendFile('pp/pp-contra-total.json', JSON.stringify(ppAbstencionTotal, null, 2), function(err) {
+    if (err) {
+        throw err;
+    }
+});

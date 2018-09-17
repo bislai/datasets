@@ -35,3 +35,37 @@ fs.writeFile('zec/zec-abstencion.json', JSON.stringify(zecAbstencion, null, 2), 
         throw err;
     }
 });
+
+// Sumando el total de los votos en contra de Chunta
+function sum(obj) {
+  var sum = 0;
+  for( var el in obj ) {
+    if( obj.hasOwnProperty( el ) ) {
+      sum += parseFloat( obj[el] );
+    }
+  }
+  return sum;
+}
+
+var zecContraTotal = "Las votaciones en contra suman: " + sum(zecContra);
+var zecFavorTotal = 'Las votaciones a favor suman: ' + sum(zecFavor);
+var zecAbstencionTotal = "Las abstenciones suman: " + sum(zecAbstencion);
+
+//Creamos un nuevo JSON con todos los datos filtrados
+fs.writeFile('zec/zec-contra-total.json', JSON.stringify(zecContraTotal, null, 2), function(err) {
+    if (err) {
+        throw err;
+    }
+});
+
+fs.appendFile('zec/zec-contra-total.json', JSON.stringify(zecFavorTotal, null, 2), function(err) {
+    if (err) {
+        throw err;
+    }
+});
+
+fs.appendFile('zec/zec-contra-total.json', JSON.stringify(zecAbstencionTotal, null, 2), function(err) {
+    if (err) {
+        throw err;
+    }
+});
