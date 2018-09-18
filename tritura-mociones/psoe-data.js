@@ -17,6 +17,7 @@ fs.writeFile('psoe/psoe-favor.json', JSON.stringify(psoeFavor, null, 2), functio
 
 //Obtenemos las votaciones donde el psoe ha votado en contra y luego las filtramos por que partido la ha presentado
 psoeContra = _.filter(data, function(res) { if (/PSOE/.test(res.en_contra)) return res.fecha });
+console.log(psoeContra)
 psoeContra = _.countBy(psoeContra, function(res) { return (res.presentada) })
 
 fs.writeFile('psoe/psoe-contra.json', JSON.stringify(psoeContra, null, 2), function(err) {
