@@ -844,5 +844,22 @@
     "votos_abstencion": 12,
     "votos_contra": 10,
     "numero": 27
+  },
+  {
+    "fecha": "28-09-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 12
+  },
+  {
+    "fecha": "28-09-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP + C'S",
+    "votos_favor": 17,
+    "votos_contra": 13,
+    "numero": 15
   }
 ]

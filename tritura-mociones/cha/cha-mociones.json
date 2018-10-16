@@ -972,5 +972,15 @@
     "resultado": "ganada",
     "unanimidad": "si",
     "numero": 29
+  },
+  {
+    "fecha": "28-09-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP + C'S",
+    "votos_favor": 15,
+    "votos_contra": 13,
+    "numero": 13
   }
 ]

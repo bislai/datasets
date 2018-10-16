@@ -31,29 +31,29 @@ Queremos sacar por fecha los votos a favor(también en contra y abstención) que
 Lo primero que hacemos es crear un JSON con los campos afavor, presentada y fecha.
 
 ```
-jq --raw-output ['.[] | {"afavor": .a_favor, "presentada": .presentada, "fecha": .fecha}'] mociones.json > a-favor-ciudadanos.json
+jq --raw-output ['.[] | {"afavor": .a_favor, "presentada": .presentada, "fecha": .fecha}'] mociones.json > a-favor-chunta.json
 ```
 
 Esto nos devuelve algunos resultados con null, estos resultados son aquellos de las mociones que se han votado por unanimidad. Así que ahora vamos a limpiarlos
 
 ```
-jq --raw-output ['.[] | select(.afavor!=null) | select(.afavor | contains("CIUDADANOS"))'] a-favor-ciudadanos.json > limpiando-ciudadanos.json
+jq --raw-output ['.[] | select(.afavor!=null) | select(.afavor | contains("CHA"))'] a-favor-chunta.json > limpiando-chunta.json
 ```
 
 Ahora vamos a eliminar las mociones que ha presentado CHA y obviamente se ha votado a sí misma.
 
 ```
-jq --raw-output ['.[]  | select(.presentada | contains("CIUDADANOS") | not) '] limpiando-ciudadanos.json >> sin-ciudadanos.json
+jq --raw-output ['.[]  | select(.presentada | contains("CHA") | not) '] limpiando-chunta.json >> sin-chunta.json
 ```
 
 Y ahora que ya tenemos todo limpio no nos hace falta el campo de afavor, así que lo eliminamos
 
 ```
-jq --raw-output ['.[] | {"presentada": .presentada, "fecha": .fecha}'] sin-ciudadanos.json > legislatura-ciudadanos-votos-a-favor.json
+jq --raw-output ['.[] | {"presentada": .presentada, "fecha": .fecha}'] sin-chunta.json > legislatura-chunta-votos-a-favor.json
 ```
 
 Por último transformamos el JSON a CSV
 
 ```
-json2csv -i legislatura-ciudadanos-votos-a-favor.json -o legislatura-ciudadanos-votos-a-favor.csv
+json2csv -i legislatura-chunta-votos-a-favor.json -o legislatura-chunta-votos-a-favor.csv
 ```
