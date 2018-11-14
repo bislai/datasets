@@ -5,7 +5,8 @@
 partidos=("PP" "ZEC" "PSOE" "CHA")
 
 # Recorremos el array de numeros
-for (( i=0; i<${#partidos[@]}; ++i )); do
+for (( i=0; i<${#partidos[@]}; ++i ));
+        do
 
         # Lo primero que hacemos es crear un JSON con los campos afavor, presentada y fecha.
         jq --raw-output ['.[] | {"afavor": .a_favor, "presentada": .presentada, "fecha": .fecha}'] mociones.json > a-favor-"${partidos[$i]}".json &&
@@ -23,9 +24,9 @@ for (( i=0; i<${#partidos[@]}; ++i )); do
         json2csv -i legislatura-"${partidos[$i]}"-votos-a-favor.json -o legislatura-"${partidos[$i]}"-votos-a-favor.csv &&
 
         # Eliminamos las comillas de todo el CSV
-        sed -i 's/"//g' *.csv &&
+        sed -i 's/"//g' *.csv
 
-done
+        done &&
 
 # Ahora vamos con ciudadanos
 jq --raw-output ['.[] | {"afavor": .a_favor, "presentada": .presentada, "fecha": .fecha}'] mociones.json > a-favor-ciudadanos.json &&

@@ -982,5 +982,29 @@
     "votos_favor": 15,
     "votos_contra": 13,
     "numero": 13
+  },
+  {
+    "fecha": "29-10-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + C'S + CHA",
+    "en_contra": "PP",
+    "votos_favor": 9,
+    "votos_contra": 20,
+    "numero": 8
+  },
+  {
+    "fecha": "29-10-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 9
+  },
+  {
+    "fecha": "29-10-2018",
+    "presentada": "CHA",
+    "resultado": "ganada",
+    "unanimidad": "si",
+    "numero": 16
   }
 ]

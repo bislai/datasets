@@ -861,5 +861,47 @@
     "votos_favor": 17,
     "votos_contra": 13,
     "numero": 15
+  },
+  {
+    "fecha": "29-10-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "abstencion": "PP + C'S",
+    "votos_favor": 16,
+    "votos_abstencion": 11,
+    "numero": 11
+  },
+  {
+    "fecha": "29-10-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP",
+    "abstencion": "C'S",
+    "votos_favor": 17,
+    "votos_contra": 9,
+    "votos_abstencion": 4,
+    "numero": 112
+  },
+  {
+    "fecha": "29-10-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA + C'S",
+    "abstencion": "PP",
+    "votos_favor": 21,
+    "votos_abstencion": 9,
+    "numero": 113
+  },
+  {
+    "fecha": "29-10-2018",
+    "presentada": "ZEC",
+    "resultado": "ganada",
+    "a_favor": "ZEC + PSOE + CHA",
+    "en_contra": "PP + C'S",
+    "votos_favor": 15,
+    "votos_contra": 13,
+    "numero": 15
   }
 ]
